@@ -8,7 +8,10 @@ export default function Home(){
             <p>Développeuse web en herbe,
                 je me forme activement aux technologies du web pour créer des sites fonctionnels et attrayants.
                 Chaque projet est une nouvelle occasion d’apprendre et de progresser.</p>
-            <button>Découvrir mon CV</button>
+                <div className="button">
+                    <p>Découvrir mon CV</p>
+                </div>
+            {/* <button>Découvrir mon CV</button> */}
         </div>
     );
 }
