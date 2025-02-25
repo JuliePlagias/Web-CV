@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Home(){
     return (
         <div className="home">
@@ -9,9 +11,10 @@ export default function Home(){
                 je me forme activement aux technologies du web pour créer des sites fonctionnels et attrayants.
                 Chaque projet est une nouvelle occasion d’apprendre et de progresser.</p>
                 <div className="button">
-                    <p>Découvrir mon CV</p>
+                    <Link className="link" to="/informations">
+                        Découvrir mon CV
+                    </Link>
                 </div>
-            {/* <button>Découvrir mon CV</button> */}
         </div>
     );
 }
