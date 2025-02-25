@@ -1,4 +1,14 @@
-export default function Navbar({sectionName}){
+import { useLocation } from "react-router-dom";
+
+export default function Navbar(){
+    const location = useLocation();
+
+    const pageTitles = {
+        "/informations": "Informations",
+        "/projets": "Mes Projets",
+        "/competences": "Compétences",
+      };
+    
     return (
         <header className="navbar">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -17,7 +27,7 @@ export default function Navbar({sectionName}){
                     <path d="M448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z"/>
                 </g>
             </svg>
-            <h1>{sectionName}</h1>
+            <h1>{pageTitles[location.pathname]}</h1>
         </header>
     );
 }
