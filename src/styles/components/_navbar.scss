@@ -1,9 +1,17 @@
-// .navbar{
-//     height: 10vh;
-//     svg{
-//         cursor: pointer;
-//         width: 20%;
-//         height: 50%;
-//         fill: white;
-//     }
-// }
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    svg{
+        height: 80%;
+        width: 20%;
+        fill: white;
+    }
+    h1{
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+}

@@ -5,8 +5,8 @@ import "./styles/main.scss";
 function App() {
   return (
     <div className="background">
-      {/* <Navbar/> */}
-      <Home/>
+      <Navbar sectionName={"Informations"}/>
+      {/* <Home/> */}
     </div>
   );
 }
