@@ -8,6 +8,8 @@ export default function Navbar(){
         "/projets": "Mes Projets",
         "/competences": "Compétences",
       };
+
+      const currentTitle = Object.keys(pageTitles).find((key)=>location.pathname.startsWith(key));
     
     return (
         <header className="navbar">
@@ -27,7 +29,7 @@ export default function Navbar(){
                     <path d="M448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z"/>
                 </g>
             </svg>
-            <h1>{pageTitles[location.pathname]}</h1>
+            <h1>{pageTitles[currentTitle]}</h1>
         </header>
     );
 }
