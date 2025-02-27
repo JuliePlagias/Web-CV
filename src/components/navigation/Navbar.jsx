@@ -4,7 +4,7 @@ export default function Navbar(){
     const location = useLocation();
 
     const pageTitles = {
-        "/informations": "Informations",
+        "/formations": "Formations",
         "/projets": "Mes Projets",
         "/competences": "Compétences",
       };

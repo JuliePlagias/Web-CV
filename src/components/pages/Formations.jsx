@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Block from "../Block";
 
-export default function Informations(){
+export default function Formations(){
     const [isMobile, setIsMobile] =useState(false);
 
     useEffect(()=>{
@@ -12,7 +12,7 @@ export default function Informations(){
     },[]);
 
     return (
-        <div className="informations">
+        <div className="formations">
             <Block image={"Web"} name={"Dev-Front"}
              details={"Module de formation de 6 semaines, visant à améliorer les compétences front-end."} isMobile={isMobile}/>
             <Block image={"Gaming"} name={"Programmation gameplay"}
