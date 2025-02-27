@@ -1,0 +1,24 @@
+{
+    "formation1":{
+        "name":"Dev-Front",
+        "place":"Simplon - Valenciennes",
+        "date":"Décembre 2024 - Janvier 2025",
+        "introduction":"Présentation de la formation",
+        "skills":{
+            "skill1":"JavaScript",
+            "skill2":"HTML/CSS"
+        }
+    },
+    "formation2":{
+        "name":"Programmation gameplay",
+        "place":"Objectif 3D - Montpellier",
+        "date":"2020 - 2023",
+        "introduction":"Présentation de la formation",
+        "skills":{
+            "skill1":"C++",
+            "skill2":"C#",
+            "skill3":"Unreal",
+            "skill4":"Unity"
+        }
+    }
+}
