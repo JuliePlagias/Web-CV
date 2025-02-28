@@ -4,6 +4,8 @@ import "./styles/main.scss";
 import Formations from "./components/pages/Formations";
 import FormationDetail from "./components/pages/FormationDetail";
 import Layout from "./components/navigation/Layout";
+import Projects from "./components/pages/Projects";
+import Skills from "./components/pages/Skills";
 
 function App() {
   return (
@@ -14,8 +16,8 @@ function App() {
           <Route path="/" element={<Layout/>}>
             <Route path="formations" element={<Formations/>}></Route>
             <Route path="formations/:formationId" element={<FormationDetail/>}></Route>
-            <Route path="projets"></Route>
-            <Route path="competences"></Route>
+            <Route path="projets" element={<Projects/>}></Route>
+            <Route path="competences" element={<Skills/>}></Route>
           </Route>
         </Routes>
       </div>
