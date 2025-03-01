@@ -1,17 +1,21 @@
+import { useLocation } from "react-router-dom";
+
 export default function FormationsDetails(){
+    const location = useLocation();
+    const data = require("../../assets/formations.json");
+    const formationName = Object.keys(data).find((key)=>location.pathname.endsWith(key)); 
+
     return (
         <>
-            {/* use JSON */}
-            <h2>Nom formations</h2>
-            <h3>etablissement et lieu</h3>
-            <h3>date</h3>
-            <p>Présentation de la formation</p>
+            <h2>{ data[formationName].name}</h2>
+            <h3>{ data[formationName].place}</h3>
+            <h3>{ data[formationName].date}</h3>
+            <p>{ data[formationName].introduction}</p>
             <h3>Compétences</h3>
             <ul>
-                <li>Compétence 1</li>
-                <li>Compétence 2</li>
-                <li>Compétence 3</li>
-                <li>Compétence 4</li>
+                {Object.values(data[formationName].skills).map((skill, index) => (
+                <li key={index}>{skill}</li>
+                ))}
             </ul>
         </>
     );
