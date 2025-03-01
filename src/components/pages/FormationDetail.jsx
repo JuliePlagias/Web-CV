@@ -1,6 +1,6 @@
 export default function FormationsDetails(){
     return (
-        <div>
+        <>
             {/* use JSON */}
             <h2>Nom formations</h2>
             <h3>etablissement et lieu</h3>
@@ -13,6 +13,6 @@ export default function FormationsDetails(){
                 <li>Compétence 3</li>
                 <li>Compétence 4</li>
             </ul>
-        </div>
+        </>
     );
 }
