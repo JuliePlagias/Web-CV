@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 
 export default function FormationsDetails(){
     const location = useLocation();
-    const data = require("../../assets/formations.json");
+    const data = require("../../assets/formationsDetails.json");
     const formationName = Object.keys(data).find((key)=>location.pathname.endsWith(key)); 
 
     return (

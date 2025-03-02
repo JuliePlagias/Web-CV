@@ -4,6 +4,7 @@ import { Outlet } from "react-router-dom";
 
 export default function Formations(){
     const [isMobile, setIsMobile] =useState(false);
+    const data  = require("../../assets/formations.json");
 
     useEffect(()=>{
         const checkIfMobile=()=>setIsMobile(window.matchMedia("(max-width:1280px").matches);
@@ -14,11 +15,12 @@ export default function Formations(){
 
     return (
         <div className="formations">
-            <Block image={"Web"} name={"Dev-Front"} link={"dev_front"}
-             details={"Module de formation de 6 semaines, visant à améliorer les compétences front-end."} isMobile={isMobile}/>
-            <Block image={"Gaming"} name={"Programmation gameplay"} link={"objectif_3d"}
-             details={"Formation diplomante d'une durée de 3 ans. Visant à apprendre la programmation orientée jeux vidéo sous logiciel comme Unreal ou Unity"} isMobile={isMobile}/>
-             <Outlet />
+            {
+                data.map((formation, index)=> (
+                    <Block key={index} image={formation["background-img"]} name={formation.name} link={formation.link}
+                    details={formation.intro} isMobile={isMobile}/>))
+            }
+            <Outlet/>
         </div>
     );
 }
