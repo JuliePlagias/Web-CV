@@ -1,17 +1,8 @@
-import { useEffect, useState } from "react";
 import Block from "../Block";
 import { Outlet } from "react-router-dom";
 
-export default function Formations(){
-    const [isMobile, setIsMobile] =useState(false);
+export default function Formations({isMobile}){
     const data  = require("../../assets/formations.json");
-
-    useEffect(()=>{
-        const checkIfMobile=()=>setIsMobile(window.matchMedia("(max-width:1280px").matches);
-        checkIfMobile();
-        window.addEventListener("resize",checkIfMobile);
-        return ()=>window.removeEventListener("resize", checkIfMobile);
-    },[]);
 
     return (
         <div className="formations">
