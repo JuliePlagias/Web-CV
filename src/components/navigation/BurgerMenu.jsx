@@ -22,10 +22,10 @@ export default function BurgerMenu(){
                 </g>
             </svg>
             <ul className={`links ${showMenu?"":"hidden"}`}>
-                <Link className="link" to={"/"}>Accueil</Link>
-                <Link className="link" to={"formations"}>Formations</Link>
-                <Link className="link" to={"projets"}>Projets</Link>
-                <Link className="link" to={"competences"}>Compétences</Link>
+                <Link className="link" onClick={()=>setShowMenu(prev=>!prev)} to={"/"}>Accueil</Link>
+                <Link className="link" onClick={()=>setShowMenu(prev=>!prev)} to={"formations"}>Formations</Link>
+                <Link className="link" onClick={()=>setShowMenu(prev=>!prev)} to={"projets"}>Projets</Link>
+                <Link className="link" onClick={()=>setShowMenu(prev=>!prev)} to={"competences"}>Compétences</Link>
             </ul>
         </div>
     );
