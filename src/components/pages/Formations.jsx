@@ -5,7 +5,7 @@ export default function Formations({isMobile}){
     const data  = require("../../assets/formations.json");
 
     return (
-        <div className="formations">
+        <div className="blockSection">
             {
                 data.map((formation, index)=> (
                     <Block key={index} image={formation["background-img"]} name={formation.name} link={formation.link}

@@ -4,7 +4,7 @@ export default function Projects({isMobile}){
     const data = require("../../assets/projects.json");
 
     return (
-        <div>
+        <div className="blockSection">
             {
                 data.map((project, index)=>(
                 <Block key={index} name={project.name} image={project["background-img"]} link={project.link}
