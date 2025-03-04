@@ -1,6 +1,6 @@
 export default function SkillBlock({name, logo, progress}){
     return (
-        <div>
+        <div className="skill-block">
             <img src={`../assets/icons/${logo}.svg`}></img>
             <h3>{name}</h3>
             {/* ma barre de progression */}

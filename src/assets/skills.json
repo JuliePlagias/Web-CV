@@ -2,6 +2,61 @@
     {
         "name":"JavaScript",
         "logo":"javascript",
-        "progress":"50%"
+        "progress":"50%"    
+    },
+    {
+        "name":"HTML 5",
+        "logo":"html5",
+        "progress":"50%"    
+    },
+    {
+        "name":"Css 3",
+        "logo":"css3",
+        "progress":"50%"    
+    },
+    {
+        "name":"C++",
+        "logo":"c++",
+        "progress":"50%"    
+    },
+    {
+        "name":"C#",
+        "logo":"c-sharp",
+        "progress":"50%"    
+    },
+    {
+        "name":"Figma",
+        "logo":"figma",
+        "progress":"50%"    
+    },
+    {
+        "name":"GIT",
+        "logo":"git",
+        "progress":"50%"    
+    },
+    {
+        "name":"Github",
+        "logo":"github",
+        "progress":"50%"    
+    },
+    {
+        "name":"Node JS",
+        "logo":"nodejs",
+        "progress":"50%"    
+    },
+    {
+        "name":"Unity",
+        "logo":"unity",
+        "progress":"50%"    
+    },
+    {
+        "name":"Unreal",
+        "logo":"unreal",
+        "progress":"50%"    
+    },
+    {
+        "name":"Visual Studio Code",
+        "logo":"visual-studio-code",
+        "progress":"50%"    
     }
 ]

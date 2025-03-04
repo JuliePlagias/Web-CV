@@ -1,0 +1,23 @@
+.skill-block{
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    img{
+        position: absolute;
+        top: 0;
+        left:5%;
+        height: 10vh;
+    }
+    h3{
+        position: absolute;
+        top: 0;
+        right: 5%;
+        width: 70%;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.4rem;
+
+    }
+
+}
