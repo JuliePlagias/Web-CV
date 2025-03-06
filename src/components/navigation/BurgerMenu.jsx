@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function BurgerMenu(){
-    const [showMenu, setShowMenu] = useState(false);fir 
+    const [showMenu, setShowMenu] = useState(false);
     return (
         <div className="burgerMenu">
             <svg onClick={()=>setShowMenu(!showMenu)}xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
