@@ -3,7 +3,9 @@ export default function SkillBlock({name, logo, progress}){
         <div className="skill-block">
             <img src={`../assets/icons/${logo}.svg`}></img>
             <h3>{name}</h3>
-            {/* ma barre de progression */}
+            <div className="bar">
+                <div className="progress" style={{ width: `${progress}`}}></div>
+            </div>
         </div>
     );
 }

@@ -1,16 +1,16 @@
 .skill-block{
     position: relative;
     width: 100%;
-    height: 12vh;
+    height: 10vh;
     img{
         position: absolute;
-        top: 0;
+        top: calc(50% - 5vh);
         left:5%;
         height: 10vh;
     }
     h3{
         position: absolute;
-        top: 0;
+        top: 10%;
         right: 5%;
         width: 70%;
         color: white;
@@ -19,5 +19,18 @@
         font-size: 1.4rem;
 
     }
-
+    .bar{
+        position: absolute;
+        width: 68%;
+        height: 15%;
+        bottom: 10%;
+        right: 5%;
+        border-radius: 20px;
+        border: 3px solid black;
+        .progress{
+            border-radius: 20px;
+            height: 100%;
+            background-color: white;
+        }
+    }
 }
