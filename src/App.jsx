@@ -7,6 +7,7 @@ import Layout from "./components/navigation/Layout";
 import Projects from "./components/pages/Projects";
 import Skills from "./components/pages/Skills";
 import { useEffect, useState } from "react";
+import ProjectDetail from "./components/pages/ProjectDetail";
 
 function App() {
   const [isMobile, setIsMobile] =useState(false);
@@ -26,6 +27,7 @@ function App() {
             <Route path="formations" element={<Formations isMobile={isMobile}/>}></Route>
             <Route path="formations/:formationId" element={<FormationDetail/>}></Route>
             <Route path="projets" element={<Projects isMobile={isMobile}/>}></Route>
+            <Route path="projets/:projetId" element={<ProjectDetail/>}></Route>
             <Route path="competences" element={<Skills/>}></Route>
           </Route>
         </Routes>
