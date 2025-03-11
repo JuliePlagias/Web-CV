@@ -2,31 +2,44 @@
     {
         "link":"descamps",
         "name":"Descamps-bois",
+        "place":"Liévin",
+        "time":"1 mois",
         "background-img":"Descamps",
         "intro":"Stage en entreprise d'un mois au sein du département marketing de descamps bois."
     },
     {
         "link":"intelicook",
         "name":"Intelicook",
+        "place":"Simplon - Valenciennes",
+        "time":"1 semaine",
         "background-img":"Descamps",
-        "intro":""
+        "intro":"Projet en groupe de 4, réalisé en fin de formation dev-front.",
+        "projectLink":"https://intellicook.netlify.app/"
     },
     {
         "link":"afp2i",
         "name":"AFP2I",
+        "place":"St-Nicolas",
+        "time":"6 mois",
         "background-img":"Descamps",
-        "intro":""
+        "intro":"Service civique d'une durée de 6 mois dans le domaine du numérique."
     },
     {
         "link":"dust-and-aliens",
         "name":"Dust and Aliens",
+        "place":"Objectif 3D",
+        "time":"6 mois",
         "background-img":"Descamps",
-        "intro":""
+        "intro":"Projet de jeu vidéo de dernière année, réalisé en groupe sur une période de 6 mois.",
+        "projectLink":"https://store.steampowered.com/app/2190230/Dust_and_Aliens/"
     },
     {
         "link":"space-piercer",
         "name":"Space Piercer",
+        "place":"Objectif 3D",
+        "time":"2 mois",
         "background-img":"Descamps",
-        "intro":""
+        "intro":"Projet de jeu vidéo de fin de première année, réalisé en groupe sur une période de 2 mois.",
+        "projectLink":"https://store.steampowered.com/app/1904410/Space_Piercer/"
     }
 ]
