@@ -6,7 +6,7 @@ export default function Navbar(){
 
     const pageTitles = {
         "/formations": "Formations",
-        "/projets": "Mes Projets",
+        "/experiences": "Mes expériences",
         "/competences": "Compétences",
       };
 

@@ -24,7 +24,7 @@ export default function BurgerMenu(){
             <ul className={`links ${showMenu?"":"hidden"}`}>
                 <Link className="link" to={"/"}>Accueil</Link>
                 <Link className="link" onClick={()=>setShowMenu(prev=>!prev)} to={"formations"}>Formations</Link>
-                <Link className="link" onClick={()=>setShowMenu(prev=>!prev)} to={"projets"}>Projets</Link>
+                <Link className="link" onClick={()=>setShowMenu(prev=>!prev)} to={"experiences"}>Expériences</Link>
                 <Link className="link" onClick={()=>setShowMenu(prev=>!prev)} to={"competences"}>Compétences</Link>
             </ul>
         </div>
