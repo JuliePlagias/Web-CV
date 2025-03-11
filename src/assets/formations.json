@@ -6,10 +6,13 @@
         "intro":"Module de formation de 6 semaines, visant à améliorer les compétences front-end.",
         "place":"Simplon - Valenciennes",
         "date":"Décembre 2024 - Janvier 2025",
-        "detail":"Formation d’une durée de 6 semaines suivi d’un stage en entreprise de la même durée. Cette formation avaez pour but de dévelopez et d’améliorer mes compétence en developpement front",
+        "detail":"Module de formation en développement front-end, d'une durée de 6 semaines et suivi d'un stage en entreprise d'une durée de 1 mois. Cette formation avez pour but de renforcer les compétences en HTML/CSS et d'apprendre l'utilisation du JavaScript ainsi que les bases de l'utilisation du framework React",
         "skills":{
                 "skill1":"JavaScript",
-                "skill2":"HTML/CSS"
+                "skill2":"HTML/CSS",
+                "skill3":"React",
+                "skill4":"GIT",
+                "skill5":"Figma"
             }
     
     },
@@ -20,12 +23,14 @@
         "intro":"Formation diplomante d'une durée de 3 ans. Visant à apprendre la programmation orientée jeux vidéo sous logiciel comme Unreal ou Unity.",
         "place":"Objectid 3D - Montpellier",
         "date":"2020 - 2023",
-        "detail":"detail du dérouler de la formation",
+        "detail":"Formation équivalent license, visant à apprendre la programmation gameplay (jeux vidéo). Au cours de cette formation j'ai eu l'occassion de participer à deux projets de groupes à différentes échelles, tous deux disponible sur la plateforme steam",
         "skills":{
                 "skill1":"C++",
                 "skill2":"C#",
                 "skill3":"Unreal",
-                "skill4":"Unity"
+                "skill4":"Unity",
+                "skill5":"Travail d'équipe",
+                "skill6":"GitHub desktop"
             }
     }
 ]
