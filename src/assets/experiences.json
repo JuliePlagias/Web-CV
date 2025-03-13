@@ -5,16 +5,34 @@
         "place":"Liévin",
         "time":"1 mois",
         "background-img":"Descamps",
-        "intro":"Stage en entreprise d'un mois au sein du département marketing de descamps bois."
+        "intro":"Stage en entreprise d'un mois au sein du département marketing de descamps bois.",
+        "detail":"Stage en developpement web, au cours duquel j'ai été chargé de commencer le responsive design du site interne de l'entrprise."
     },
     {
-        "link":"intelicook",
-        "name":"Intelicook",
-        "place":"Simplon - Valenciennes",
+        "link":"intellicook",
+        "name":"Intellicook",
+        "place":"Simplon",
         "time":"1 semaine",
         "background-img":"Descamps",
         "intro":"Projet en groupe de 4, réalisé en fin de formation dev-front.",
-        "projectLink":"https://intellicook.netlify.app/"
+        "projectLink":"https://intellicook.netlify.app/",
+        "detail":"Site de recettes réaliser en groupe de 4 en fin de formation developpement web. le site à été réalisé avec le framework react et le module Sass.",
+        "imgs":{
+            "img1":"intellicook-1",
+            "img2":"intellicook-2",
+            "img3":"intellicook-3",
+            "img4":"intellicook-4",
+            "img5":"intellicook-5",
+            "img6":"intellicook-6"
+        },
+        "skills":{
+            "skill1":"HTML/CSS",
+            "skill2":"JavaScript",
+            "skill3":"React",
+            "skill4":"Sass",
+            "skill5":"Figma",
+            "skill6":"Git"
+        }
     },
     {
         "link":"afp2i",
@@ -22,7 +40,20 @@
         "place":"St-Nicolas",
         "time":"6 mois",
         "background-img":"Descamps",
-        "intro":"Service civique d'une durée de 6 mois dans le domaine du numérique."
+        "intro":"Service civique d'une durée de 6 mois dans le domaine du numérique.",
+        "detail":"Service civique dans le numérique, au cours duquel j'ai eu l'occasion de faire de la médiation auprès d'un publique en fracture numérique. J'ai aussi eu l'occasion d'y apprendre à utilisé des outils comme les imprimantes 3D, les découpeuse laser...",
+        "imgs":{
+            "img1":"intellicook-1",
+            "img2":"intellicook-2",
+            "img3":"intellicook-3",
+            "img4":"intellicook-4",
+            "img5":"intellicook-5",
+            "img6":"intellicook-6"
+        },
+        "skills":{
+            "skill1":"Mediation numérique",
+            "skill2":"Modélisation assistée par ordinateur"
+        }
     },
     {
         "link":"dust-and-aliens",
@@ -31,7 +62,20 @@
         "time":"6 mois",
         "background-img":"Descamps",
         "intro":"Projet de jeu vidéo de dernière année, réalisé en groupe sur une période de 6 mois.",
-        "projectLink":"https://store.steampowered.com/app/2190230/Dust_and_Aliens/"
+        "projectLink":"https://store.steampowered.com/app/2190230/Dust_and_Aliens/",
+        "imgs":{
+            "img1":"intellicook-1",
+            "img2":"intellicook-2",
+            "img3":"intellicook-3",
+            "img4":"intellicook-4",
+            "img5":"intellicook-5",
+            "img6":"intellicook-6"
+        },
+        "skills":{
+            "skill1":"C++",
+            "skill2":"Unreal 5",
+            "skill3":"Perforce"
+        }
     },
     {
         "link":"space-piercer",
@@ -40,6 +84,19 @@
         "time":"2 mois",
         "background-img":"Descamps",
         "intro":"Projet de jeu vidéo de fin de première année, réalisé en groupe sur une période de 2 mois.",
-        "projectLink":"https://store.steampowered.com/app/1904410/Space_Piercer/"
+        "projectLink":"https://store.steampowered.com/app/1904410/Space_Piercer/",
+        "imgs":{
+            "img1":"intellicook-1",
+            "img2":"intellicook-2",
+            "img3":"intellicook-3",
+            "img4":"intellicook-4",
+            "img5":"intellicook-5",
+            "img6":"intellicook-6"
+        },
+        "skills":{
+            "skill1":"C++",
+            "skill2":"Unreal 4",
+            "skill3":"Perforce"
+        }
     }
 ]

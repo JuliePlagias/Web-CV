@@ -7,16 +7,25 @@ export default function ExperienceDetail(){
     const experience = data.find((obj)=>obj.link === pathName); 
     
     return (
-        <div>
+        <div className="experience-details">
             <h2>{experience.name}</h2>
-            <h3>{experience.place}</h3>
-            <h3>{experience.time}</h3>
+            <h3>{experience.place} - {experience.time}</h3>
             <p>{experience.detail}</p>
+            <div className="imgs">
+            {Object.values(experience.imgs).map((img, index)=>(
+                    <img key={index} src={`../assets/images/${img}.png`} alt={`image du projet ${index}`}></img>
+                ))}
+            </div>
+            {
+                experience.projectLink && 
+                    <a href={experience.projectLink} target="_blank" rel="noopener noreferrer">Accéder aux projet</a>
+            }
             <h3>Compétences</h3>
-            {/* list of skills */}
-            {/* Vidéo du projets si une existante , ou lien vers la page steam et donc la vidéo*/}
-            {/* List of projects pictures*/}
-            <a href={experience.projectLink} target="_blank" rel="noopener noreferrer">Accéder aux projet</a>
+            <ul>
+            {Object.values(experience.skills).map((skill, index)=>(
+                <li key={index}>{skill}</li>
+            ))}
+            </ul>
         </div>
     );
 }
