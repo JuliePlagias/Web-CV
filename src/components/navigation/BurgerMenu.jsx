@@ -21,7 +21,7 @@ export default function BurgerMenu(){
                     <path d="M448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z"/>
                 </g>
             </svg>
-            <ul className={`links ${showMenu?"":"hidden"}`}>
+            <ul className={`links ${showMenu?"visible":"hidden"}`}>
                 <Link className="link" to={"/"}>Accueil</Link>
                 <Link className="link" onClick={()=>setShowMenu(prev=>!prev)} to={"formations"}>Formations</Link>
                 <Link className="link" onClick={()=>setShowMenu(prev=>!prev)} to={"experiences"}>Expériences</Link>

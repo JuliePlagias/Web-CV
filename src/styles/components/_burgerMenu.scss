@@ -7,8 +7,12 @@
     ul{
         &.hidden{
             transform: translateX(-100%);
+            transition: 500ms;
         }
-        transform: translateX(0);
+        &.visible{
+            transform: translateX(0);
+            transition: 500ms;
+        }
         z-index: 10;
         display: flex;
         flex-direction: column;
