@@ -50,4 +50,17 @@
         top: 1vh;
         left: 2vw;
     }
+
+    @include respond-to(tablet){
+       ul{
+        .link{
+            font-size: 3rem;
+        }
+       } 
+    }
+
+    @include respond-to(computer)
+    {
+        display: none;
+    }
 }
