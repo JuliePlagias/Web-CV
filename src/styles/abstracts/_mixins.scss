@@ -1,3 +1,12 @@
 @mixin text-shadow{
     text-shadow: 0.07em 0 black,0 0.07em black,-0.07em 0 black,0 -0.07em black;
 }
+
+@mixin respond-to($device){
+    @if $device == tablet{
+        @media (min-width:768px) {@content;}
+    }
+    @else if $device == computer {
+        @media (min-width:1366px){@content;}
+    }
+}
