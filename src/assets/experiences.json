@@ -13,7 +13,7 @@
         "name":"Intellicook",
         "place":"Simplon",
         "time":"1 semaine",
-        "background-img":"Descamps",
+        "background-img":"intellicook",
         "intro":"Projet en groupe de 4, réalisé en fin de formation dev-front.",
         "projectLink":"https://intellicook.netlify.app/",
         "detail":"Site de recettes réaliser en groupe de 4 en fin de formation developpement web. le site à été réalisé avec le framework react et le module Sass.",
@@ -39,7 +39,7 @@
         "name":"AFP2I",
         "place":"St-Nicolas",
         "time":"6 mois",
-        "background-img":"Descamps",
+        "background-img":"Afp2i-arras",
         "intro":"Service civique d'une durée de 6 mois dans le domaine du numérique.",
         "detail":"Service civique dans le numérique, au cours duquel j'ai eu l'occasion de faire de la médiation auprès d'un publique en fracture numérique. J'ai aussi eu l'occasion d'y apprendre à utilisé des outils comme les imprimantes 3D, les découpeuse laser...",
         "imgs":{
@@ -60,7 +60,7 @@
         "name":"Dust and Aliens",
         "place":"Objectif 3D",
         "time":"6 mois",
-        "background-img":"Descamps",
+        "background-img":"Dust-and-aliens",
         "intro":"Projet de jeu vidéo de dernière année, réalisé en groupe sur une période de 6 mois.",
         "projectLink":"https://store.steampowered.com/app/2190230/Dust_and_Aliens/",
         "imgs":{
@@ -82,7 +82,7 @@
         "name":"Space Piercer",
         "place":"Objectif 3D",
         "time":"2 mois",
-        "background-img":"Descamps",
+        "background-img":"Space-piercer",
         "intro":"Projet de jeu vidéo de fin de première année, réalisé en groupe sur une période de 2 mois.",
         "projectLink":"https://store.steampowered.com/app/1904410/Space_Piercer/",
         "imgs":{
