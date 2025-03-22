@@ -42,11 +42,12 @@
         }
     }
     svg{
+        fill: white;
         z-index: 50;
         width: 8vh;
         height: 8vh;
         position: absolute;
-        top: 2vw;
+        top: 1vh;
         left: 2vw;
     }
 }
