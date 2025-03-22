@@ -36,22 +36,36 @@
     }
     @include respond-to(tablet){
         .details{
+            gap: 5vh;
             h2{
                 font-size: 2.2rem;
             }
             p{
                 font-size: 1.5rem;
+                width: 70%;
             }
         }
     }
 
     @include respond-to(computer){
+        width: 25%;
+        height: 70vh;
         &:hover{
             img{
                 opacity: 30%;
             }
             .hidden{
                 display: inherit;
+            }
+        }
+        .details{
+            gap: 6vh;
+            h2{
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: 1.8rem;
+                width: 85%;
             }
         }
     }
