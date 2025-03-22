@@ -56,17 +56,19 @@
             justify-self: center;
         }
         h1{
+            font-size: 4rem;
             grid-column:2/3;
             grid-row: 1/2;
             justify-self: center;
             align-self: flex-end;
         }
         p{
+            font-size: 2rem;
             grid-column:2/3;
             grid-row: 2/3;
             justify-self: center;
         }
-        .button{
+        .home-button{
             grid-column: 2/3;
             grid-row: 3/4;
             justify-self: center;

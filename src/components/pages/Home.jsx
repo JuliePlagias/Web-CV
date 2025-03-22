@@ -10,7 +10,7 @@ export default function Home(){
             <p>Développeuse web en herbe,
                 je me forme activement aux technologies du web pour créer des sites fonctionnels et attrayants.
                 Chaque projet est une nouvelle occasion d’apprendre et de progresser.</p>
-            <div className="button">
+            <div className="home-button">
                 <Button text={"Découvir mon CV"} to={"/formations"}/>
             </div>
         </div>
