@@ -20,7 +20,8 @@ export default function FormationsDetails(){
                     <SkillBlock  key={index} name={skill}/>
                     return result ? (
                         <SkillBlock key={index} name={result.name} logo={result.logo} progress={result.progress}/>
-                    ):null;
+                    )
+                    :<li key={index}>{skill}</li>;
                 })}
             </ul>
         </div>
