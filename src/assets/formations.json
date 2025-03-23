@@ -8,11 +8,12 @@
         "date":"Décembre 2024 - Janvier 2025",
         "detail":"Module de formation en développement front-end, d'une durée de 6 semaines et suivi d'un stage en entreprise d'une durée de 1 mois. Cette formation avez pour but de renforcer les compétences en HTML/CSS et d'apprendre l'utilisation du JavaScript ainsi que les bases de l'utilisation du framework React",
         "skills":{
-                "skill1":"JavaScript",
-                "skill2":"HTML/CSS",
-                "skill3":"React",
-                "skill4":"GIT",
-                "skill5":"Figma"
+                "skill1":"HTML 5",
+                "skill2":"Css 3",
+                "skill3":"JavaScript",
+                "skill4":"React",
+                "skill5":"GIT",
+                "skill6":"Figma"
             }
     
     },
@@ -29,8 +30,7 @@
                 "skill2":"C#",
                 "skill3":"Unreal",
                 "skill4":"Unity",
-                "skill5":"Travail d'équipe",
-                "skill6":"GitHub desktop"
+                "skill5":"Travail d'équipe"
             }
     }
 ]
