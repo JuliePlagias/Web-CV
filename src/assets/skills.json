@@ -58,5 +58,10 @@
         "name":"Visual Studio Code",
         "logo":"visual-studio-code",
         "progress":"50%"    
+    },
+    {
+        "name":"React",
+        "logo":"react",
+        "progress":"50%"
     }
 ]
