@@ -26,12 +26,13 @@
             "img6":"intellicook-6"
         },
         "skills":{
-            "skill1":"HTML/CSS",
-            "skill2":"JavaScript",
-            "skill3":"React",
-            "skill4":"Sass",
-            "skill5":"Figma",
-            "skill6":"Git"
+            "skill1":"HTML 5",
+            "skill2":"Css 3",
+            "skill3":"JavaScript",
+            "skill4":"React",
+            "skill5":"Sass",
+            "skill6":"Figma",
+            "skill7":"GIT"
         }
     },
     {

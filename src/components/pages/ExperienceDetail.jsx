@@ -1,8 +1,10 @@
 import { useLocation } from "react-router-dom";
+import SkillBlock from "../SkillBlock";
 
 export default function ExperienceDetail(){
     const location = useLocation();
     const data = require("../../assets/experiences.json");
+    const skills = require("../../assets/skills.json");
     const pathName = location.pathname.split("/").pop();
     const experience = data.find((obj)=>obj.link === pathName); 
     
@@ -22,9 +24,14 @@ export default function ExperienceDetail(){
             }
             <h3>Compétences</h3>
             <ul>
-            {Object.values(experience.skills).map((skill, index)=>(
-                <li key={index}>{skill}</li>
-            ))}
+                {Object.values(experience.skills).map((skill, index) => {
+                    const result = skills.find(item=> item.name === skill);
+                    <SkillBlock  key={index} name={skill}/>
+                    return result ? (
+                    <SkillBlock key={index} name={result.name} logo={result.logo} progress={result.progress}/>
+                    )
+                    :<li key={index}>{skill}</li>;
+                })}
             </ul>
         </div>
     );
