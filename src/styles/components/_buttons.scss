@@ -1,20 +1,3 @@
-// .button{
-//     cursor: pointer;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 60%;
-//     height: 5vh;
-//     border-radius: 25px;
-//     background-color: #C37200;
-//     font-weight: bold;
-//     font-size: 1.1rem;
-//     .link{
-//         color: white;
-//         text-decoration: none;
-//     }
-// }
-
 .button {
     cursor: pointer;
     background: #ff9800;
@@ -22,6 +5,7 @@
     padding: 8px 25px;
     border-radius: 20px;
     font-size: 1.1rem;
+    font-family: Jura;
     font-weight: bold;
     .link{
         color: white;
@@ -29,5 +13,11 @@
     }
     &:hover{
         background-color: #f57c00;
+    }
+
+    @include respond-to(tablet){
+        border-radius: 30px;
+        padding: 8px 30px;
+        font-size: 1.7rem;
     }
 }
