@@ -33,4 +33,17 @@
             background-color: white;
         }
     }
+    @include respond-to(tablet){
+        height: 12vh;
+        img{
+            height: 12vh;
+        }
+        h3{
+            font-size: 2rem;
+        }
+    }
+
+    @include respond-to(computer){
+
+    }
 }
