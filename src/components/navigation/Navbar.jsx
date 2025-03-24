@@ -1,21 +1,23 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import BurgerMenu from "./BurgerMenu";
 
 export default function Navbar(){
     const location = useLocation();
-
-    const pageTitles = {
-        "/formations": "Formations",
-        "/experiences": "Mes expériences",
-        "/competences": "Compétences",
-      };
-
-      const currentTitle = Object.keys(pageTitles).find((key)=>location.pathname.startsWith(key));
     
     return (
         <header className="navbar">
-            <h1>{pageTitles[currentTitle]}</h1>
+            <h1>
+                {location.pathname === "/formations" && "Formations"}
+                {location.pathname === "/experiences" && "Mes expériences"}
+                {location.pathname === "/compétences" && "Compétences"}
+            </h1>
             <BurgerMenu/>
+            <ul>
+                <Link className="link" to={"/"}>Accueil</Link>
+                <Link className={`link ${location.pathname.startsWith("/formations") ? "active" : ""}`} to={"formations"}>Formations</Link>
+                <Link className={`link ${location.pathname.startsWith("/experiences") ? "active" : ""}`} to={"experiences"}>Expériences</Link>
+                <Link className={`link ${location.pathname.startsWith("/competences") ? "active" : ""}`} to={"competences"}>Compétences</Link>
+            </ul>
         </header>
     );
 }

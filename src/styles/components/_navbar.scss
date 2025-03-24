@@ -12,6 +12,9 @@
         font-weight: bold;
         font-size: 1.8rem;
     }
+    ul{
+        display: none;
+    }
     
     @include respond-to(tablet)
     {
@@ -23,7 +26,21 @@
     @include respond-to(computer)
     {
         h1{
-            width: 100%;
+            display: none;
         }
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .link{
+                text-decoration: none;
+                color: white;
+                &.active{
+                    color: orange;
+                }
+            }
+        }
+        border-bottom: 3px solid white;
     }
 }
