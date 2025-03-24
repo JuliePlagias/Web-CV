@@ -13,7 +13,7 @@ function App() {
   const [isMobile, setIsMobile] =useState(false);
   
       useEffect(()=>{
-          const checkIfMobile=()=>setIsMobile(window.matchMedia("(max-width:1280px").matches);
+          const checkIfMobile=()=>setIsMobile(window.matchMedia("(max-width:1366px").matches);
           checkIfMobile();
           window.addEventListener("resize",checkIfMobile);
           return ()=>window.removeEventListener("resize", checkIfMobile);
