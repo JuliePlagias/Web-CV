@@ -15,6 +15,8 @@
     ul{
         display: none;
     }
+    border-bottom: 3px solid white;
+    margin-bottom: 20px;
     
     @include respond-to(tablet)
     {
@@ -41,6 +43,5 @@
                 }
             }
         }
-        border-bottom: 3px solid white;
     }
 }

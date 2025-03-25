@@ -7,9 +7,9 @@ export default function Navbar(){
     return (
         <header className="navbar">
             <h1>
-                {location.pathname === "/formations" && "Formations"}
-                {location.pathname === "/experiences" && "Mes expériences"}
-                {location.pathname === "/compétences" && "Compétences"}
+                {location.pathname.startsWith("/formations") && "Formations"}
+                {location.pathname.startsWith("/experiences") && "Mes expériences"}
+                {location.pathname.startsWith("/competences") && "Compétences"}
             </h1>
             <BurgerMenu/>
             <ul>
