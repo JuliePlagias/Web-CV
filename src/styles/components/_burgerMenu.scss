@@ -4,16 +4,18 @@
     left: 0;
     width: 100vw;
     height: 100vh;
+    z-index: 10;
+    &.hidden{
+        transform: translateX(-100%);
+        transition: 500ms;
+        display: none;
+    }
+    &.visible{
+        transform: translateX(0);
+        transition: 500ms;
+        display: block;
+    }
     ul{
-        &.hidden{
-            transform: translateX(-100%);
-            transition: 500ms;
-        }
-        &.visible{
-            transform: translateX(0);
-            transition: 500ms;
-        }
-        z-index: 10;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -40,15 +42,6 @@
             color: white;
             text-decoration: none;
         }
-    }
-    svg{
-        fill: white;
-        z-index: 50;
-        width: 8vh;
-        height: 8vh;
-        position: absolute;
-        top: 1vh;
-        left: 2vw;
     }
 
     @include respond-to(tablet){
