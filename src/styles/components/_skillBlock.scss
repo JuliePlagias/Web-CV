@@ -8,9 +8,10 @@
         left:10%;
         height: 8vh;
     }
-    h3{
+    .skill-p{
         position: absolute;
-        top: 15%;
+        padding: 0 !important;
+        top: 20%;
         right: 5%;
         width: 70%;
         text-align: center;
@@ -33,10 +34,10 @@
     @include respond-to(tablet){
         height: 12vh;
         img{
-            height: 12vh;
+            height: 10vh;
         }
-        h3{
-            font-size: 2rem;
+        .skill-p{
+            font-size: 1.5rem;
         }
     }
 
