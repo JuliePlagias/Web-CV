@@ -14,9 +14,9 @@ export default function FormationsDetails(){
             <h3>{ formation.date}</h3>
             <p>{ formation.detail}</p>
             <h3>Compétences</h3>
-            <h4>Compétences techniques</h4>
+            <h4 style={{ display: formation.hardSkills.length > 0 ? 'block' : 'none' }}>Hard skills</h4>
             <ul>
-                {Object.values(formation.skills).map((skill, index) => {
+                {Object.values(formation.hardSkills).map((skill, index) => {
                     const result = skills.hard.find(item=> item.name === skill);
                     return result ? (
                     <SkillBlock key={index} name={result.name} logo={result.logo} progress={result.progress}/>
@@ -24,12 +24,12 @@ export default function FormationsDetails(){
                     :"";
                 })}
             </ul>
-            <h4>Compétences douces</h4>
+            <h4 style={{ display: formation.hardSkills.length > 0 ? 'block' : 'none' }}>Soft skills</h4>
             <ul>
-            {Object.values(formation.skills).map((skill, index) => {
+            {Object.values(formation.softSkills).map((skill, index) => {
                 const result = skills.soft.find(item=> item.name === skill);
                 return result ? (
-                    <li key={index}>{skill.name}</li>
+                    <li key={index}>{result.name}</li>
                 )
                 :"";
             })}

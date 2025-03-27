@@ -65,10 +65,14 @@
             "name":"React",
             "logo":"react",
             "progress":"50%"
+        },
+        {
+            "name":"Modélisation 3D"
         }
     ],
     "soft":[
         {"name":"Travail en équipe"},
-        { "name":"Travail en autonomie"}
+        { "name":"Travail en autonomie"},
+        {"name":"Mediation numérique"}
     ]
 }
