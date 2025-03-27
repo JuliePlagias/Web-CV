@@ -6,11 +6,6 @@
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-    h1{
-        font-size: 2rem;
-        color: white;
-        font-weight: bold;
-    }
     .imgContainer{
         width: 80%;
         height: 60%;
@@ -30,7 +25,6 @@
     }
     p{
         width: 80%;
-        color: white;
     }
     @include respond-to(tablet){
 
