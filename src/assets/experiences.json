@@ -7,7 +7,10 @@
         "background-img":"Descamps",
         "intro":"Stage en entreprise d'un mois au sein du département marketing de descamps bois.",
         "detail":"Stage en developpement web, au cours duquel j'ai été chargé de commencer le responsive design du site interne de l'entrprise.",
-        "imgs":["intellicook-1", "intellicook-2", "intellicook-3", "intellicook-4", "intellicook-5", "intellicook-6"],
+        "imgs":{
+            "computer":[],
+            "phone":[]
+        },
         "hardSkills":["HTML 5", "Css 3", "JavaScript", "React", "Figma"],
         "softSkills":["Travail en autonomie"]
     },
@@ -20,7 +23,10 @@
         "intro":"Projet en groupe de 4, réalisé en fin de formation dev-front.",
         "projectLink":"https://intellicook.netlify.app/",
         "detail":"Site de recettes réaliser en groupe de 4 en fin de formation developpement web. le site à été réalisé avec le framework react et le module Sass.",
-        "imgs":["intellicook-1", "intellicook-2", "intellicook-3", "intellicook-4", "intellicook-5", "intellicook-6"],
+        "imgs":{
+            "computer":["intellicook-1", "intellicook-2", "intellicook-3", "intellicook-4"],
+            "phone":["intellicook-5", "intellicook-6"]
+        },
         "hardSkills":["HTML 5","Css 3","JavaScript","React","Sass","Figma","GIT"],
         "softSkills":["Travail en équipe"]
     },
@@ -32,7 +38,10 @@
         "background-img":"Afp2i-arras",
         "intro":"Service civique d'une durée de 6 mois dans le domaine du numérique.",
         "detail":"Service civique dans le numérique, au cours duquel j'ai eu l'occasion de faire de la médiation auprès d'un publique en fracture numérique. J'ai aussi eu l'occasion d'y apprendre à utilisé des outils comme les imprimantes 3D, les découpeuse laser...",
-        "imgs":["intellicook-1", "intellicook-2", "intellicook-3", "intellicook-4", "intellicook-5", "intellicook-6"],
+        "imgs":{
+            "computer":[],
+            "phone":[]
+        },
         "hardSkills":["Modélisation 3D"],
         "softSkills":[]
     },
@@ -44,7 +53,10 @@
         "background-img":"Dust-and-aliens",
         "intro":"Projet de jeu vidéo de dernière année, réalisé en groupe sur une période de 6 mois.",
         "projectLink":"https://store.steampowered.com/app/2190230/Dust_and_Aliens/",
-        "imgs":["intellicook-1", "intellicook-2", "intellicook-3", "intellicook-4", "intellicook-5", "intellicook-6"],
+        "imgs":{
+            "computer":[],
+            "phone":[]
+        },
         "hardSkills":["C++","Unreal 5","Perforce"],
         "softSkills":["Travail en équipe"]
     },
@@ -56,7 +68,10 @@
         "background-img":"Space-piercer",
         "intro":"Projet de jeu vidéo de fin de première année, réalisé en groupe sur une période de 2 mois.",
         "projectLink":"https://store.steampowered.com/app/1904410/Space_Piercer/",
-        "imgs":["intellicook-1", "intellicook-2", "intellicook-3", "intellicook-4", "intellicook-5", "intellicook-6"],
+        "imgs":{
+            "computer":[],
+            "phone":[]
+        },
         "hardSkills":["C++","Unreal 4","Perforce"],
         "softSkills":["Travail en équipe"]
     }

@@ -14,12 +14,15 @@ export default function ExperienceDetail(){
             <h3>{experience.place} - {experience.time}</h3>
             <p>{experience.detail}</p>
             <div className="imgs">
-            {Object.values(experience.imgs).map((img, index)=>(
-                    <img key={index} src={`../assets/images/${img}.png`} alt={`image du projet ${index}`}></img>
-                ))}
+                {Object.values(experience.imgs.computer).map((img, index)=>(
+                        <img className="img-computer" key={index} src={`../assets/images/${img}.png`} alt={`image du projet ${index}`}></img>
+                    ))}
+                {Object.values(experience.imgs.phone).map((img, index)=>(
+                    <img className="img-phone" key={index} src={`../assets/images/${img}.png`}></img>
+                ))
+                }
             </div>
-            {
-                experience.projectLink && 
+            {experience.projectLink && 
                     <a href={experience.projectLink} target="_blank" rel="noopener noreferrer">Accéder aux projet</a>
             }
             <h3>Compétences</h3>
@@ -30,7 +33,7 @@ export default function ExperienceDetail(){
                     return result  && result.progress ? (
                     <SkillBlock key={index} name={result.name} logo={result.logo} progress={result.progress}/>
                     )
-                    :<li key={index}>{result.name}</li>;
+                    :(<li key={index}>{result.name}</li>);
                 })}
             </ul>
             <h4 style={{ display: experience.softSkills.length > 0 ? 'block' : 'none' }}>Soft skills</h4>
