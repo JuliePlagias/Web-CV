@@ -10,4 +10,12 @@
     img{
         height: 6vh;
     }
+    @include respond-to(tablet)
+    {
+        margin-top: 40px;
+    }
+    @include respond-to(computer)
+    {
+        margin-top: 60px;
+    }
 }

@@ -3,6 +3,8 @@
     font-size: 1.8rem;
     align-items: center;
     height: 10vh;
+    border-bottom: 3px solid white;
+    margin-bottom: 20px;
     h1{
         position: absolute;
         right: 0;
@@ -12,8 +14,6 @@
     ul{
         display: none;
     }
-    border-bottom: 3px solid white;
-    margin-bottom: 20px;
     svg{
         fill: white;
         z-index: 50;
@@ -26,13 +26,12 @@
     
     @include respond-to(tablet)
     {
-        h1{
-            font-size: 3.5rem;
-        }
+        margin-bottom: 40px;
     }
 
     @include respond-to(computer)
     {
+        margin-bottom: 60px;
         h1{
             display: none;
         }
@@ -48,6 +47,9 @@
                     color: orange;
                 }
             }
+        }
+        svg{
+            display: none;
         }
     }
 }
