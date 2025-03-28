@@ -10,8 +10,14 @@
     }
     @include respond-to(computer)
     {
+        h2{
+            width: 100%;
+            text-align: center;
+        }
         li{
             font-size: 1.9rem;
+            width: 40%;
+            text-align: center;
         }
     }
 }

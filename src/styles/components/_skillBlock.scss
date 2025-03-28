@@ -42,6 +42,6 @@
     }
 
     @include respond-to(computer){
-
+        width: 40%;
     }
 }
