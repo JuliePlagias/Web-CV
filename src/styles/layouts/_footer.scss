@@ -10,8 +10,14 @@
     img{
         height: 6vh;
     }
+    div{
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+    }
     @include respond-to(tablet)
     {
+        p{font-size: 1.5rem;}
         margin-top: 40px;
     }
     @include respond-to(computer)
