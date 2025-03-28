@@ -1,3 +1,13 @@
+To access this project you can use the link below
+
+https://cv-portfolio-am8ovhfre-tartestaces-projects.vercel.app
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
