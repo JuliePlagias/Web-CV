@@ -39,6 +39,20 @@ body {
       font-size: 2.3rem;
     }
   }
-
+  @include respond-to(computer)
+  {
+    h1{
+      font-size: 4rem;
+    }
+    h2{
+      font-size: 3.8rem;
+    }
+    h3{
+      font-size: 3.4rem;
+    }
+    h4{
+      font-size: 3.3rem;
+    }
+  }
 
 }

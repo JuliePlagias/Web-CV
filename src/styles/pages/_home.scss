@@ -28,9 +28,6 @@
     }
     @include respond-to(tablet){
 
-        h1{
-            font-size: 3rem;
-        }
         .imgContainer{
             height: 65%;
         }
@@ -49,7 +46,6 @@
             justify-self: center;
         }
         h1{
-            font-size: 4rem;
             grid-column:2/3;
             grid-row: 1/2;
             justify-self: center;
