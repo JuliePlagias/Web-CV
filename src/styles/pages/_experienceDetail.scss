@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2vh;
+    gap: 6vh;
     p{
         padding:2vh 0;
         width: 80%;
@@ -28,6 +28,10 @@
             font-size: 1.1rem;
         }
     }
+    a{
+        font-size: 1.2rem;
+        color: #BA6E02;
+    }
     @include respond-to(tablet)
     {
         p{
@@ -43,6 +47,18 @@
 
     @include respond-to(computer)
     {
+        .imgs{
+            justify-content: center;
+            .img-computer{
+                width: 45%;
+            }
+            .img-phone{
+                width: 30%;
+            }
+            img{
+                border-radius: 15px;
+            }
+        }
         ul{
             flex-direction: row;
             flex-wrap: wrap;
@@ -52,6 +68,9 @@
                 width: 40%;
                 text-align: center;
             }
+        }
+        a{
+            font-size: 2rem;
         }
     }
 }
