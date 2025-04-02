@@ -3,7 +3,7 @@
         {
             "name":"JavaScript",
             "logo":"javascript",
-            "progress":"50%"    
+            "progress":"40%"    
         },
 
         {
@@ -19,47 +19,47 @@
         {
             "name":"C++",
             "logo":"c++",
-            "progress":"50%"    
+            "progress":"60%"   
         },
         {
             "name":"C#",
             "logo":"c-sharp",
-            "progress":"50%"    
+            "progress":"60%"    
         },
         {
             "name":"Figma",
             "logo":"figma",
-            "progress":"50%"    
+            "progress":"30%"    
         },
         {
             "name":"GIT",
             "logo":"git",
-            "progress":"50%"    
+            "progress":"30%"    
         },
         {
             "name":"Github",
             "logo":"github",
-            "progress":"50%"    
+            "progress":"60%"    
         },
         {
             "name":"Node JS",
             "logo":"nodejs",
-            "progress":"50%"    
+            "progress":"40%"    
         },
         {
             "name":"Unity",
             "logo":"unity",
-            "progress":"50%"    
+            "progress":"30%"    
         },
         {
             "name":"Unreal 5",
             "logo":"unreal",
-            "progress":"50%"    
+            "progress":"30%"    
         },
         {
             "name":"Unreal 4",
             "logo":"unreal",
-            "progress":"50%"    
+            "progress":"60%"    
         },
         {
             "name":"Visual Studio Code",
@@ -69,7 +69,7 @@
         {
             "name":"React",
             "logo":"react",
-            "progress":"50%"
+            "progress":"60%"
         },
         {
             "name":"Modélisation 3D"

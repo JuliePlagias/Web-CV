@@ -27,6 +27,9 @@
         li{
             font-size: 1.1rem;
         }
+        h4{
+            margin-top: 20px;
+        }
     }
     a{
         font-size: 1.2rem;
@@ -64,6 +67,9 @@
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
+            h4{
+                width: 100%;
+            }
             li{
                 font-size: 1.9rem;
                 width: 40%;
