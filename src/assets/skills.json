@@ -52,14 +52,14 @@
             "progress":"30%"    
         },
         {
-            "name":"Unreal 5",
-            "logo":"unreal",
-            "progress":"30%"    
+            "name":"Unreal 4",
+            "logo":"unreal-4",
+            "progress":"60%"    
         },
         {
-            "name":"Unreal 4",
-            "logo":"unreal",
-            "progress":"60%"    
+            "name":"Unreal 5",
+            "logo":"unreal-5",
+            "progress":"50%"    
         },
         {
             "name":"Visual Studio Code",
@@ -72,18 +72,31 @@
             "progress":"60%"
         },
         {
-            "name":"Modélisation 3D"
+            "name":"Sass",
+            "logo":"sass",
+            "progress":"70%"
         },
         {
-            "name":"Sass"
+            "name":"Modélisation 3D",
+            "logo":"model-3d",
+            "progress":"30%"
         },
         {
             "name":"Perforce"
         }
     ],
     "soft":[
-        {"name":"Travail en équipe"},
-        { "name":"Travail en autonomie"},
-        {"name":"Mediation numérique"}
+        {
+            "name":"Travail en équipe",
+            "logo":"group-work"
+        },
+        {
+             "name":"Travail en autonomie",
+             "logo":"solo-work"
+        },
+        {
+            "name":"Mediation numérique",
+            "logo":"bubble-talk"
+        }
     ]
 }

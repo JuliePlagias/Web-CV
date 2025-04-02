@@ -8,41 +8,15 @@
         width: 80%;
         text-align: center;
     }
-    ul{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 2vh;
-        align-items: center; 
-        li{
-            font-size: 1.1rem;
-        }
-    }
 
     @include respond-to(tablet)
     {
         p{
             font-size: 1.5rem;
         }
-        ul{
-
-            li{
-                font-size: 1.5rem;
-            }
-        }
     }
 
     @include respond-to(computer)
     {
-        ul{
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            li{
-                font-size: 1.9rem;
-                width: 40%;
-                text-align: center;
-            }
-        }
     }
 }

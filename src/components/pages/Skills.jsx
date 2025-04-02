@@ -8,14 +8,13 @@ export default function Skills(){
             <h2>Hard skills</h2>
             {
                 data.hard.map((skill, index)=>(
-                    skill.progress?<SkillBlock key={index} name={skill.name} logo={skill.logo} progress={skill.progress}/>
-                    :<li key={index}>{skill.name}</li>
+                    <SkillBlock key={index} name={skill.name} logo={skill.logo} progress={skill.progress}/>
                 ))
             }
             <h2>Soft skills</h2>
             {
                 data.soft.map((skill, index)=>(
-                    <li key={index}>{skill.name}</li>
+                    <SkillBlock key={index} name={skill.name} logo={skill.logo} progress={skill.progress}/>
                 ))
             }
         </div>
