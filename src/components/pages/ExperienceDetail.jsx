@@ -30,6 +30,7 @@ export default function ExperienceDetail(){
             <ul>
                 {Object.values(experience.hardSkills).map((skill, index) => {
                     const result = skills.hard.find(item=> item.name === skill);
+                    console.log(result);
                     return result  && result.progress ? (
                     <SkillBlock key={index} name={result.name} logo={result.logo} progress={result.progress}/>
                     )

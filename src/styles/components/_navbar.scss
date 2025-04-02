@@ -27,6 +27,9 @@
     @include respond-to(tablet)
     {
         margin-bottom: 40px;
+        h1{
+            width: 100%;
+        }
     }
 
     @include respond-to(computer)

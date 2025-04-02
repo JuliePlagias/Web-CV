@@ -18,7 +18,7 @@ export default function FormationsDetails(){
             <ul>
                 {Object.values(formation.hardSkills).map((skill, index) => {
                     const result = skills.hard.find(item=> item.name === skill);
-                    return result ? (
+                    return result   && result.progress ? (
                     <SkillBlock key={index} name={result.name} logo={result.logo} progress={result.progress}/>
                     )
                     :"";
