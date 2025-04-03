@@ -24,8 +24,8 @@
         "projectLink":"https://intellicook.netlify.app/",
         "detail":"Site de recettes réaliser en groupe de 4 en fin de formation developpement web. le site à été réalisé avec le framework react et le module Sass.",
         "imgs":{
-            "computer":["intellicook-1", "intellicook-2", "intellicook-3", "intellicook-4"],
-            "phone":["intellicook-5", "intellicook-6"]
+            "computer":["ic-1", "ic-2", "ic-3", "ic-4"],
+            "phone":["ic-5", "ic-6"]
         },
         "hardSkills":["HTML 5","Css 3","JavaScript","React","Sass","Figma","GIT"],
         "softSkills":["Travail en équipe"]
@@ -54,7 +54,7 @@
         "intro":"Projet de jeu vidéo de dernière année, réalisé en groupe sur une période de 6 mois.",
         "projectLink":"https://store.steampowered.com/app/2190230/Dust_and_Aliens/",
         "imgs":{
-            "computer":[],
+            "computer":["da-1", "da-2", "da-3", "da-4"],
             "phone":[]
         },
         "hardSkills":["C++","Unreal 5","Perforce"],
