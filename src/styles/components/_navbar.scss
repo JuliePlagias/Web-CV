@@ -22,6 +22,21 @@
         position: absolute;
         top: 1vh;
         left: 2vw;
+        transition: all 0.5s ease-in-out;
+        #top-line, #middle-line, #bottom-line{
+            transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        }
+        &.open{
+            #top-line{
+                transform: translateX(165px) translateY(45px)rotate(45deg);
+            }
+            #middle-line{
+                opacity: 0;
+            }
+            #bottom-line{
+                transform: translateX(-200px) translateY(140px) rotate(-45deg);
+            }
+        }
     }
     
     @include respond-to(tablet)
