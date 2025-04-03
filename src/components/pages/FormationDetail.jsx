@@ -15,21 +15,25 @@ export default function FormationsDetails(){
             <p>{ formation.detail}</p>
             <h3>Compétences</h3>
             <h4 style={{ display: formation.hardSkills.length > 0 ? 'block' : 'none' }}>Hard skills</h4>
+            <ul>
                 {Object.values(formation.hardSkills).map((skill, index) => {
                     const result = skills.hard.find(item=> item.name === skill);
                     return result? (
-                    <SkillBlock key={index} name={result.name} logo={result.logo} progress={result.progress}/>
+                        <SkillBlock key={index} name={result.name} logo={result.logo} progress={result.progress}/>
                     )
                     :"";
                 })}
+            </ul>
             <h4 style={{ display: formation.hardSkills.length > 0 ? 'block' : 'none' }}>Soft skills</h4>
-            {Object.values(formation.softSkills).map((skill, index) => {
-                const result = skills.soft.find(item=> item.name === skill);
-                return result ? (
-                    <SkillBlock key={index} name={result.name} logo={result.logo} progress={result.progress}/>
-                )
-                :"";
-            })}
+            <ul>
+                {Object.values(formation.softSkills).map((skill, index) => {
+                    const result = skills.soft.find(item=> item.name === skill);
+                    return result ? (
+                        <SkillBlock key={index} name={result.name} logo={result.logo} progress={result.progress}/>
+                    )
+                    :"";
+                })}
+            </ul>
         </div>
     );
 }

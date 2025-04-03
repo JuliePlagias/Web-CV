@@ -26,7 +26,8 @@ export default function ExperienceDetail(){
                     <a href={experience.projectLink} target="_blank" rel="noopener noreferrer">Accéder aux projet</a>
             }
             <h3>Compétences</h3>
-                <h4 style={{ display: experience.hardSkills.length > 0 ? 'block' : 'none' }}>Hard skills</h4>
+            <h4 style={{ display: experience.hardSkills.length > 0 ? 'block' : 'none' }}>Hard skills</h4>
+            <ul>
                 {Object.values(experience.hardSkills).map((skill, index) => {
                     const result = skills.hard.find(item=> item.name === skill);
                     return result ? (
@@ -34,7 +35,9 @@ export default function ExperienceDetail(){
                     )
                     :"";
                 })}
-                <h4 style={{ display: experience.softSkills.length > 0 ? 'block' : 'none' }}>Soft skills</h4>
+            </ul>
+            <h4 style={{ display: experience.softSkills.length > 0 ? 'block' : 'none' }}>Soft skills</h4>
+            <ul>
                 {Object.values(experience.softSkills).map((skill, index) => {
                 const result = skills.soft.find(item=> item.name === skill);
                 return result ? (
@@ -42,6 +45,7 @@ export default function ExperienceDetail(){
                 )
                 :"";
                 })}
+            </ul>
         </div>
     );
 }
