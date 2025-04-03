@@ -28,13 +28,13 @@
         }
         &.open{
             #top-line{
-                transform: translateX(165px) translateY(45px)rotate(45deg);
+                transform: translateX(140px) translateY(30px) rotate(45deg);
             }
             #middle-line{
                 opacity: 0;
             }
             #bottom-line{
-                transform: translateX(-200px) translateY(140px) rotate(-45deg);
+                transform: translateX(-220px) translateY(120px) rotate(-45deg);
             }
         }
     }
