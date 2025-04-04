@@ -52,6 +52,7 @@
         "time":"6 mois",
         "background-img":"Dust-and-aliens",
         "intro":"Projet de jeu vidéo de dernière année, réalisé en groupe sur une période de 6 mois.",
+        "detail":"Jeu en vue a la première personne dans lequel on incarne un cowboy dans un monde futuriste et ou le but et de survivre d'arènes en arène en tuant les vagues d'alien qui se trouvent sur votre chemin.",
         "projectLink":"https://store.steampowered.com/app/2190230/Dust_and_Aliens/",
         "imgs":{
             "computer":["da-1", "da-2", "da-3", "da-4"],
@@ -67,9 +68,10 @@
         "time":"2 mois",
         "background-img":"Space-piercer",
         "intro":"Projet de jeu vidéo de fin de première année, réalisé en groupe sur une période de 2 mois.",
+        "detail":"Jeu dans lequel on incarne un hovertank et ou il faut se frayer un chemin dans le base ennemi tout en se battant pour sa vie.",
         "projectLink":"https://store.steampowered.com/app/1904410/Space_Piercer/",
         "imgs":{
-            "computer":[],
+            "computer":["sp-1", "sp-2", "sp-3"],
             "phone":[]
         },
         "hardSkills":["C++","Unreal 4","Perforce"],
