@@ -5,9 +5,14 @@ import {useState } from "react";
 export default function Navbar(){
     const [showMenu, setShowMenu] = useState(false);
     const location = useLocation();
+    function topScroll()
+    {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
     return (
         <header className="navbar">
-            <svg className={`${showMenu ? "open" : ""}`} onClick={()=>setShowMenu(!showMenu)}xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <svg className={`${showMenu ? "open" : ""}`} onClick={()=>{setShowMenu(!showMenu);topScroll()}}xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                 {/* <!-- Ligne du haut --> */}
                 <g id="top-line">
                     <path d="M0 96C0 78.3 14.3 64 32 64h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96z"/>
