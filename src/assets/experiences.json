@@ -7,10 +7,11 @@
         "background-img":"Descamps",
         "intro":"Stage en entreprise d'un mois au sein du département marketing de descamps bois.",
         "detail":"Stage en developpement web, au cours duquel j'ai été chargé de commencer le responsive design du site interne de l'entrprise.",
-        "imgs":{
-            "computer":[],
-            "phone":[]
-        },
+        "imgs":[
+            {"id":"dc-1", "format":"computer"},
+            {"id":"dc-2", "format":"tablet"},
+            {"id":"dc-3", "format":"phone"}    
+        ],
         "hardSkills":["HTML 5", "Css 3", "JavaScript", "React", "Figma"],
         "softSkills":["Travail en autonomie"]
     },
@@ -23,10 +24,14 @@
         "intro":"Projet en groupe de 4, réalisé en fin de formation dev-front.",
         "projectLink":"https://intellicook.netlify.app/",
         "detail":"Site de recettes réaliser en groupe de 4 en fin de formation developpement web. le site à été réalisé avec le framework react et le module Sass.",
-        "imgs":{
-            "computer":["ic-1", "ic-2", "ic-3", "ic-4"],
-            "phone":["ic-5", "ic-6"]
-        },
+        "imgs":[
+            {"id":"ic-1", "format":"computer"},
+            {"id":"ic-2", "format":"computer"},
+            {"id":"ic-3", "format":"computer"},
+            {"id":"ic-4", "format":"tablet"},
+            {"id":"ic-5", "format":"phone"},
+            {"id":"ic-6", "format":"phone"}
+        ],
         "hardSkills":["HTML 5","Css 3","JavaScript","React","Sass","Figma","GIT"],
         "softSkills":["Travail en équipe"]
     },
@@ -38,10 +43,9 @@
         "background-img":"Afp2i-arras",
         "intro":"Service civique d'une durée de 6 mois dans le domaine du numérique.",
         "detail":"Service civique dans le numérique, au cours duquel j'ai eu l'occasion de faire de la médiation auprès d'un publique en fracture numérique. J'ai aussi eu l'occasion d'y apprendre à utilisé des outils comme les imprimantes 3D, les découpeuse laser...",
-        "imgs":{
-            "computer":[],
-            "phone":[]
-        },
+        "imgs":[
+            
+        ],
         "hardSkills":["Modélisation 3D"],
         "softSkills":[]
     },
@@ -54,10 +58,12 @@
         "intro":"Projet de jeu vidéo de dernière année, réalisé en groupe sur une période de 6 mois.",
         "detail":"Jeu en vue a la première personne dans lequel on incarne un cowboy dans un monde futuriste et ou le but et de survivre d'arènes en arène en tuant les vagues d'alien qui se trouvent sur votre chemin.",
         "projectLink":"https://store.steampowered.com/app/2190230/Dust_and_Aliens/",
-        "imgs":{
-            "computer":["da-1", "da-2", "da-3", "da-4"],
-            "phone":[]
-        },
+        "imgs":[
+            {"id":"da-1", "format":"computer"},
+            {"id":"da-2", "format":"computer"},
+            {"id":"da-3", "format":"computer"},
+            {"id":"da-4", "format":"computer"}
+        ],
         "hardSkills":["C++","Unreal 5","Perforce"],
         "softSkills":["Travail en équipe"]
     },
@@ -70,10 +76,11 @@
         "intro":"Projet de jeu vidéo de fin de première année, réalisé en groupe sur une période de 2 mois.",
         "detail":"Jeu dans lequel on incarne un hovertank et ou il faut se frayer un chemin dans le base ennemi tout en se battant pour sa vie.",
         "projectLink":"https://store.steampowered.com/app/1904410/Space_Piercer/",
-        "imgs":{
-            "computer":["sp-1", "sp-2", "sp-3"],
-            "phone":[]
-        },
+        "imgs":[
+            {"id":"sp-1", "format":"computer"},
+            {"id":"sp-2", "format":"computer"},
+            {"id":"sp-3", "format":"computer"}
+        ],
         "hardSkills":["C++","Unreal 4","Perforce"],
         "softSkills":["Travail en équipe"]
     }

@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import SkillBlock from "../SkillBlock";
+import Images from "../Images";
 
 export default function ExperienceDetail(){
     const location = useLocation();
@@ -14,13 +15,7 @@ export default function ExperienceDetail(){
             <h3>{experience.place} - {experience.time}</h3>
             <p>{experience.detail}</p>
             <div className="imgs">
-                {Object.values(experience.imgs.computer).map((img, index)=>(
-                        <img className="img-computer" key={index} src={`../assets/images/${img}.png`} alt={`image du projet ${index}`}></img>
-                    ))}
-                {Object.values(experience.imgs.phone).map((img, index)=>(
-                    <img className="img-phone" key={index} src={`../assets/images/${img}.png`}></img>
-                ))
-                }
+                <Images file={experience}/>
             </div>
             {experience.projectLink && 
                     <a href={experience.projectLink} target="_blank" rel="noopener noreferrer">Accéder aux projet</a>
