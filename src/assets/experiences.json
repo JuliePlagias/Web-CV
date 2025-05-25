@@ -8,9 +8,9 @@
         "intro":"Stage en entreprise d'un mois au sein du département marketing de descamps bois.",
         "detail":"Stage en developpement web, au cours duquel j'ai été chargé de commencer le responsive design du site interne de l'entrprise.",
         "imgs":[
-            {"id":"dc-1", "format":"computer"},
-            {"id":"dc-2", "format":"tablet"},
-            {"id":"dc-3", "format":"phone"}    
+            {"id":"dc-1.png", "format":"computer"},
+            {"id":"dc-2.png", "format":"tablet"},
+            {"id":"dc-3.png", "format":"phone"}    
         ],
         "hardSkills":["HTML 5", "Css 3", "JavaScript", "React", "Figma"],
         "softSkills":["Travail en autonomie"]
@@ -25,12 +25,12 @@
         "projectLink":"https://intellicook.netlify.app/",
         "detail":"Site de recettes réaliser en groupe de 4 en fin de formation developpement web. le site à été réalisé avec le framework react et le module Sass.",
         "imgs":[
-            {"id":"ic-1", "format":"computer"},
-            {"id":"ic-2", "format":"computer"},
-            {"id":"ic-3", "format":"computer"},
-            {"id":"ic-4", "format":"tablet"},
-            {"id":"ic-5", "format":"phone"},
-            {"id":"ic-6", "format":"phone"}
+            {"id":"ic-1.png", "format":"computer"},
+            {"id":"ic-2.png", "format":"computer"},
+            {"id":"ic-3.png", "format":"computer"},
+            {"id":"ic-4.png", "format":"tablet"},
+            {"id":"ic-5.png", "format":"phone"},
+            {"id":"ic-6.png", "format":"phone"}
         ],
         "hardSkills":["HTML 5","Css 3","JavaScript","React","Sass","Figma","GIT"],
         "softSkills":["Travail en équipe"]
@@ -59,10 +59,10 @@
         "detail":"Jeu en vue a la première personne dans lequel on incarne un cowboy dans un monde futuriste et ou le but et de survivre d'arènes en arène en tuant les vagues d'alien qui se trouvent sur votre chemin.",
         "projectLink":"https://store.steampowered.com/app/2190230/Dust_and_Aliens/",
         "imgs":[
-            {"id":"da-1", "format":"computer"},
-            {"id":"da-2", "format":"computer"},
-            {"id":"da-3", "format":"computer"},
-            {"id":"da-4", "format":"computer"}
+            {"id":"da-1.jpg", "format":"computer"},
+            {"id":"da-2.jpg", "format":"computer"},
+            {"id":"da-3.jpg", "format":"computer"},
+            {"id":"da-4.jpg", "format":"computer"}
         ],
         "hardSkills":["C++","Unreal 5","Perforce"],
         "softSkills":["Travail en équipe"]
@@ -77,9 +77,9 @@
         "detail":"Jeu dans lequel on incarne un hovertank et ou il faut se frayer un chemin dans le base ennemi tout en se battant pour sa vie.",
         "projectLink":"https://store.steampowered.com/app/1904410/Space_Piercer/",
         "imgs":[
-            {"id":"sp-1", "format":"computer"},
-            {"id":"sp-2", "format":"computer"},
-            {"id":"sp-3", "format":"computer"}
+            {"id":"sp-1.jpg", "format":"computer"},
+            {"id":"sp-2.jpg", "format":"computer"},
+            {"id":"sp-3.jpg", "format":"computer"}
         ],
         "hardSkills":["C++","Unreal 4","Perforce"],
         "softSkills":["Travail en équipe"]
